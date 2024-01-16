@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
             Instance = this;
         }
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     public int GetCash()
@@ -67,6 +67,6 @@ public class GameManager : MonoBehaviour
     }
     public void RestartScene()
     {
-        SceneManager.LoadScene("level1");
+        SceneManager.LoadScene("Level 1");
     }
 }
